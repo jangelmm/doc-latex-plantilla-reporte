@@ -40,30 +40,38 @@
         \large
         Carrera: \textbf{INGENIERÍA EN SISTEMAS COMPUTACIONALES}
         
-        % Actividad
+        % Actividad destacada entre dos líneas
         \vspace{0.8cm}
-        {\large
-        Actividad: \descripcion \\
-        \textbf{"\myActivity"}\\[0.3cm]
-        }
-
-        % Datos del alumno
+        \begin{center}
+            \rule{\textwidth}{0.5pt} \\[0.4cm]
+            {\large \textbf{Actividad}} \\[0.4cm]
+            \descripcion \\ [0.4cm]
+            \textbf{"\myActivity"} \\[0.4cm]
+            \rule{\textwidth}{0.5pt}
+        \end{center}
         \vspace{0.8cm}
-        \begin{flushleft}
-        {\large
-            Presenta:\\    
-            \textbf{\authora}\\
-            Grupo: \textbf{\myGroup} | Matrícula: \textbf{\myControlNumber}
-        }
-        \end{flushleft}
 
-        % Datos del docente
-        \begin{flushright}
-        {\large
-            Docente:\\
-            \textbf{\myReviewers}
-        }
-        \end{flushright}
+
+        % Datos del alumno y docente
+        \vspace{0.8cm}
+        \begin{minipage}{0.48\textwidth}
+            \begin{flushleft}
+                {\large
+                    Presenta:\\    
+                    \textbf{\authora}\\
+                    Grupo: \textbf{\myGroup} | Matrícula: \textbf{\myControlNumber}
+                }
+            \end{flushleft}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.48\textwidth}
+            \begin{flushright}
+                {\large
+                    Docente:\\
+                    \textbf{\myReviewers}
+                }
+            \end{flushright}
+        \end{minipage}
         
         \vfill
         

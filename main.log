@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.8)  1 AUG 2024 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.8)  1 AUG 2024 10:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -648,6 +648,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12.59995> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 34.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 65.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14> on input line 65.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.79996> on input line 65.
  [1
 
 
@@ -764,15 +769,15 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (elementos/introduccion.aux) (elementos/objetivos.aux) (elementos/marco.aux) (elementos/desarrollo.aux) (elementos/resultados.aux) (elementos/referencias.aux)) ) 
 Here is how much of TeX's memory you used:
- 28250 strings out of 476331
- 702842 string characters out of 5786822
+ 28259 strings out of 476331
+ 702984 string characters out of 5786822
  1948660 words of memory out of 5000000
- 48154 multiletter control sequences out of 15000+600000
- 584592 words of font info for 74 fonts, out of 8000000 for 9000
+ 48163 multiletter control sequences out of 15000+600000
+ 591806 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,103p,820b,2255s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (9 pages, 492007 bytes).
+Output written on main.pdf (9 pages, 491960 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
