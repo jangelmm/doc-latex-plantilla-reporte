@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.8)  1 AUG 2024 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.8)  1 AUG 2024 08:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -530,7 +530,7 @@ File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 ) (main.aux (TitlePage.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (elementos/introduccion.aux) (elementos/objetivos.aux) (elementos/marco.aux) (elementos/desarrollo.aux) (elementos/resultados.aux))
+ (elementos/introduccion.aux) (elementos/objetivos.aux) (elementos/marco.aux) (elementos/desarrollo.aux) (elementos/resultados.aux) (elementos/referencias.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
@@ -671,15 +671,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  (elementos/introduccion.tex
 
-LaTeX Warning: Citation `conagua-2011' on page 2 undefined on input line 5.
-
-
-LaTeX Warning: Citation `conagua-2011' on page 2 undefined on input line 5.
-
-
-LaTeX Warning: Citation `undesa2008' on page 2 undefined on input line 5.
-
-
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 9.
 
@@ -756,26 +747,39 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 
 
-{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] (main.aux (TitlePage.aux)
+{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+\openout2 = `elementos/referencias.aux'.
+
+ (elementos/referencias.tex
+Underfull \hbox (badness 2205) in paragraph at lines 23--25
+\T1/lmr/m/n/10 sul-ta-do en Agos-to del 2021 en: $\T1/lmtt/m/n/10 http : / / www3 . diputados . gob . mx / camara / 001 _ diputados / 012 _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\T1/lmtt/m/n/10 comisioneslxii / 01 _ ordinarias / 002 _ agua _ potable _ y _ saneamiento / 13 _ marco _ juridico / 01 _
+ []
+
+) [8
+
+
+
+] (main.aux (TitlePage.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (elementos/introduccion.aux) (elementos/objetivos.aux) (elementos/marco.aux) (elementos/desarrollo.aux) (elementos/resultados.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ (elementos/introduccion.aux) (elementos/objetivos.aux) (elementos/marco.aux) (elementos/desarrollo.aux) (elementos/resultados.aux) (elementos/referencias.aux)) ) 
 Here is how much of TeX's memory you used:
- 28222 strings out of 476331
- 701623 string characters out of 5786822
+ 28261 strings out of 476331
+ 703091 string characters out of 5786822
  1948660 words of memory out of 5000000
- 48132 multiletter control sequences out of 15000+600000
+ 48164 multiletter control sequences out of 15000+600000
  584592 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,103p,820b,2255s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (8 pages, 690126 bytes).
+<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
+Output written on main.pdf (9 pages, 735282 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -654,6 +654,9 @@ INPUT elementos\desarrollo.aux
 INPUT .\elementos\resultados.aux
 INPUT elementos\resultados.aux
 INPUT elementos\resultados.aux
+INPUT .\elementos\referencias.aux
+INPUT elementos\referencias.aux
+INPUT elementos\referencias.aux
 OUTPUT main.aux
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -844,6 +847,16 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
+INPUT .\elementos\referencias.tex
+INPUT .\elementos\referencias.tex
+INPUT .\elementos\referencias.tex
+OUTPUT elementos\referencias.aux
+INPUT .\elementos\referencias.tex
+INPUT .\elementos\referencias.tex
+INPUT .\elementos\referencias.tex
+INPUT elementos\referencias.tex
+INPUT .\elementos\referencias.tex
+INPUT elementos\referencias.tex
 INPUT main.aux
 INPUT .\TitlePage.aux
 INPUT TitlePage.aux
@@ -863,6 +876,9 @@ INPUT elementos\desarrollo.aux
 INPUT .\elementos\resultados.aux
 INPUT elementos\resultados.aux
 INPUT elementos\resultados.aux
+INPUT .\elementos\referencias.aux
+INPUT elementos\referencias.aux
+INPUT elementos\referencias.aux
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
@@ -889,5 +905,7 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri1
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt8.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt8.pfb
