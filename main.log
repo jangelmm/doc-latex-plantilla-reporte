@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.8)  1 AUG 2024 08:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.8)  1 AUG 2024 10:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -609,56 +609,51 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 \openout2 = `TitlePage.aux'.
 
 (TitlePage.tex
-<images/logo-tecnm.png, id=4, 2677.00125pt x 1181.41376pt>
+<images/logo-tecnm.png, id=4, 419.166pt x 461.3235pt>
 File: images/logo-tecnm.png Graphic file (type png)
 <use images/logo-tecnm.png>
-Package pdftex.def Info: images/logo-tecnm.png  used on input line 11.
-(pdftex.def)             Requested size: 140.92793pt x 62.1928pt.
-<images/logo-ito.png, id=6, 195.73125pt x 195.73125pt>
-File: images/logo-ito.png Graphic file (type png)
-<use images/logo-ito.png>
-Package pdftex.def Info: images/logo-ito.png  used on input line 12.
-(pdftex.def)             Requested size: 70.46037pt x 70.4602pt.
-<images/logo-sep.png, id=7, 1164.35pt x 702.625pt>
-File: images/logo-sep.png Graphic file (type png)
-<use images/logo-sep.png>
-Package pdftex.def Info: images/logo-sep.png  used on input line 13.
-(pdftex.def)             Requested size: 117.43875pt x 70.86699pt.
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 30.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 30.
+Package pdftex.def Info: images/logo-tecnm.png  used on input line 13.
+(pdftex.def)             Requested size: 51.21504pt x 56.36304pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 15.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 30.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 15.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 30.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 15.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 30.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 15.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18> on input line 30.
+(Font)              <10> on input line 15.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.59995> on input line 30.
+(Font)              <7> on input line 15.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 30.
+(Font)              <5> on input line 15.
+<images/logo-ito.png, id=6, 195.73125pt x 195.73125pt>
+File: images/logo-ito.png Graphic file (type png)
+<use images/logo-ito.png>
+Package pdftex.def Info: images/logo-ito.png  used on input line 25.
+(pdftex.def)             Requested size: 51.21504pt x 51.21446pt.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 34.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <18> on input line 34.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12.59995> on input line 34.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 34.
  [1
 
 
-{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./images/logo-tecnm.png> <./images/logo-ito.png> <./images/logo-sep.png>]) (main.toc
+{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./images/logo-tecnm.png> <./images/logo-ito.png>]) (main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 4.
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -674,7 +669,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 9.
 
-<images/universe.jpg, id=24, 102.3825pt x 73.9563pt>
+<images/universe.jpg, id=22, 102.3825pt x 73.9563pt>
 File: images/universe.jpg Graphic file (type jpg)
 <use images/universe.jpg>
 Package pdftex.def Info: images/universe.jpg  used on input line 14.
@@ -769,17 +764,17 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (elementos/introduccion.aux) (elementos/objetivos.aux) (elementos/marco.aux) (elementos/desarrollo.aux) (elementos/resultados.aux) (elementos/referencias.aux)) ) 
 Here is how much of TeX's memory you used:
- 28261 strings out of 476331
- 703091 string characters out of 5786822
+ 28250 strings out of 476331
+ 702842 string characters out of 5786822
  1948660 words of memory out of 5000000
- 48164 multiletter control sequences out of 15000+600000
+ 48154 multiletter control sequences out of 15000+600000
  584592 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,103p,820b,2255s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (9 pages, 735282 bytes).
+Output written on main.pdf (9 pages, 492007 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
