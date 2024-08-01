@@ -1,0 +1,123 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % allows to copy accented words on PDF
+\usepackage{blindtext}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{url}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{lmodern}
+\usepackage[framed,numbered,captionpos=t]{matlab-prettifier}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\usepackage{xcolor} %for coding
+\usepackage{tikz}
+
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+%----Java----
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color
+  style      = Matlab-editor,
+  basicstyle = \mlttfamily,
+  numbers=left,
+  stepnumber=1,
+  xleftmargin=.1\textwidth,
+  xrightmargin=.1\textwidth,
+  %basicstyle=\footnotesize,        % size of fonts used for the code
+  breaklines=true,                 % automatic line breaking only at whitespace
+  captionpos=t,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},       % keyword style
+  stringstyle=\color{mymauve},     % string literal style
+  morekeywords={run, getDimensions, newArray, getResult}
+}
+
+% Código
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% Cabecera y pie de página
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Práctica 1: Nombre de la práctica}
+\lhead{Instituto Tecnológico de Oaxaca}
+\cfoot{\thepage}
+% -=-=-=-=-=-=-=-=-=-=
+
+% Defniciones para título y autores.............................................
+\makeatletter
+\def\HUGE{\@setfontsize\HUGE{24}{36}}
+\def\LARGE{\@setfontsize\LARGE{18}{27}}
+\def\large{\@setfontsize\large{14}{21}}
+\setlength{\parskip}{0.1in}
+
+\newcommand{\myAsignature}{TALLER DE SISTEMAS OPERATIVOS}
+\newcommand{\myClave}{CBS234}
+\newcommand{\descripcion}{Práctica 2:}
+\newcommand{\myActivity}{INSTALACIÓN DE UBUNTU SERVER}
+\newcommand{\authora}{Martínez Mendoza Jesús Ángel}
+%\newcommand{\authorb}{}
+%\newcommand{\authorc}{}
+%\newcommand{\authord}{}
+\newcommand{\myGroup}{5SA}
+\newcommand{\myControlNumber}{22161152}
+\newcommand{\myReviewers}{Leonardo Leo Donatelo Rafael}
+\newcommand{\myPeriod}{AGO - DIC /2025}
+\newcommand{\myDate}{Oaxaca de Juárez, Oax, 31 jul 2024}
+%...............................................................................
+
+\begin{document}
+
+% archivo de la portada
+\include{TitlePage}
+
+% índice de contenido
+\tableofcontents
+
+\newpage
+
+\include{elementos/introduccion}
+\include{elementos/objetivos}
+\include{elementos/marco}
+\include{elementos/desarrollo}
+\include{elementos/resultados}
+
+\end{document}

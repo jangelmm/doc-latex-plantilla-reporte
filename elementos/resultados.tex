@@ -1,0 +1,41 @@
+\section{Resultados}
+
+\blindtext[1]
+
+Plotting from data:
+
+\begin{figure}[htb]
+\centering
+\begin{tikzpicture}
+\begin{axis}
+[
+	title={Resultados de la medición},
+	xlabel={$x$ Temperature [\textcelsius]},
+  ylabel={Solubility [g per 100 g water]},
+    xmin=0, xmax=100,
+    ymin=0, ymax=120,
+    xtick={0,20,40,60,80,100},
+    ytick={0,20,40,60,80,100,120},
+    legend pos=north west,
+    ymajorgrids=true,
+    grid style=dashed
+]
+
+\addplot[
+    color=blue,
+    mark=square,
+    ]
+    coordinates {
+    (0,23.1)
+    (10,27.5)
+    (20,32)
+    (30,37.8)
+    (40,44.6)
+    (60,61.8)
+    (80,83.8)
+    (100,114)
+    };
+    \legend{Data $f(x)$}
+\end{axis}
+\end{tikzpicture}
+\end{figure}

@@ -1,0 +1,76 @@
+\begin{titlepage}
+
+    \begin{tikzpicture}[remember picture, overlay]
+        % Dibujar las dos líneas verticales en el lado izquierdo y menos largas
+        \draw[thick] (current page.north west) ++(1cm,-2cm) -- ++(0,-24cm);
+        \draw[thick] (current page.north west) ++(1.2cm,-2cm) -- ++(0,-24cm);
+    \end{tikzpicture}
+    
+    \begin{center}
+    %\vspace{0.2in}
+    \includegraphics[width=0.3\textwidth]{images/logo-tecnm}\hspace{0.3in}
+    \includegraphics[width=0.15\textwidth]{images/logo-ito}\hspace{0.3in}
+    \includegraphics[width=0.25\textwidth]{images/logo-sep}
+    
+    \rule[1cm]{\textwidth}{3pt}
+    
+    %Encabezado-------------------------------------------------------------------
+    \vspace{-1cm}
+    {\Large
+    \textbf{TECNOLÓGICO NACIONAL DE MÉXICO}\\[0.5cm]
+	\LARGE
+    \textbf{INSTITUTO TECNOLÓGICO DE OAXACA}\\[0.5cm]
+	\normalsize
+	\textbf{\textit{"Tecnología Propia e Independencia Económica"}}
+	}
+	
+    %Asignatura-----------------------------------------------------------------
+    \vspace{1cm}
+    \LARGE
+    \underline{\textbf{\myAsignature}} \\
+    \small
+    \myClave
+
+    %Carrera---------------------------------------------------------------------
+    \vspace{1cm}
+    \large
+    Carrera: \textbf{INGENIERÍA EN SISTEMAS COMPUTACIONALES}
+    
+    %Actividad-------------------------------------------------------------------
+    \vspace{1cm}
+    {\large
+    Actividad: \descripcion \\
+    \textbf{"\myActivity"}\\[0.5cm]
+    }
+    \vspace{0.5cm}
+    
+    %Datos del alumno------------------------------------------------------------
+    \begin{flushleft}
+    {\large
+		 Presenta:\\    
+			\textbf{\authora}\\
+            %\textbf{\authorb}\\
+            %\textbf{\authorc}\\
+            %\textbf{\authord}\\
+            Grupo: \textbf{\myGroup} | Matrícula: \textbf{\myControlNumber}
+	}
+    \end{flushleft}
+
+    
+    %Datos del docente-----------------------------------------------------------
+    \begin{flushright}
+    {\Large
+        Docente:
+        
+    		\textbf{\myReviewers}
+		}
+    \end{flushright}
+    \vfill
+    
+    %Fecha-----------------------------------------------------------------------
+    {\large Periodo: \myPeriod}\\
+    \vspace{0.5cm}
+    {\large \myDate}
+    
+    \end{center}
+\end{titlepage}
