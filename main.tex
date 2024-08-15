@@ -1,6 +1,5 @@
 \documentclass{article}
 
-\usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} % allows to copy accented words on PDF
 \usepackage{blindtext}
@@ -10,13 +9,31 @@
 \pgfplotsset{width=10cm,compat=1.9}
 \usepackage{graphicx}
 \usepackage{booktabs}
-\usepackage{amsmath}
+\usepackage{amsmath, mathrsfs, amssymb} %math
 \usepackage{listings}
 \usepackage{lmodern}
 \usepackage[framed,numbered,captionpos=t]{matlab-prettifier}
 \usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
 \usepackage{xcolor} %for coding
 \usepackage{tikz}
+\usepackage{siunitx} %unidades
+\usepackage[parfill]{parskip} %no identación
+\usepackage[spanish,es-tabla]{babel} %idioma
+
+\usepackage[backend=biber,
+    style=apa,
+    natbib=true,
+    sorting=nty,
+    doi=true,
+    isbn=false,
+    url=true,
+    giveninits=true,
+    maxnames=20,
+    maxbibnames=20
+    ]{biblatex} %bibliografía
+\addbibresource{libreria.bib}
+
+
 
 \definecolor{gray97}{gray}{.97}
 \definecolor{gray75}{gray}{.75}
@@ -94,9 +111,9 @@
 \newcommand{\descripcion}{Ejercicio 1.5}
 \newcommand{\myActivity}{DESCRIPCIÓN DE ACTIVIDAD}
 \newcommand{\authora}{Martínez Mendoza Jesús Ángel}
-%\newcommand{\authorb}{}
-%\newcommand{\authorc}{}
-%\newcommand{\authord}{}
+%\newcommand{\authorb}{Alumno 1}
+%\newcommand{\authorc}{Alumno 2}
+%\newcommand{\authord}{Alumno 3}
 \newcommand{\myGroup}{5SA}
 \newcommand{\myControlNumber}{22161152}
 \newcommand{\myReviewers}{Leonardo Leo Donatelo Rafael}
