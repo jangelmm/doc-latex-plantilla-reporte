@@ -1,5 +1,12 @@
 \begin{titlepage}
 
+    % Colocar la imagen de fondo
+    \begin{tikzpicture}[remember picture, overlay]
+        \node[opacity=0.03, anchor=south east, xshift=-1cm, yshift=0.5cm] at (current page.south east) {
+            \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{images/logo-fondo.png}
+        };
+    \end{tikzpicture}
+
     \begin{tikzpicture}[remember picture, overlay]
         % Dibujar las dos líneas verticales en el lado izquierdo y menos largas
         \draw[thick] (current page.north west) ++(1cm,-2cm) -- ++(0,-24cm);
@@ -10,7 +17,7 @@
         % Logos alineados y centrados
         \begin{minipage}{2.5cm}
             \begin{center}
-                \includegraphics[width=1.8cm]{images/logo-tecnm}
+                \includegraphics[width=3.0cm]{images/logo-sep.png}
             \end{center}
         \end{minipage}\hfill
         \begin{minipage}{10cm}
@@ -22,7 +29,7 @@
         \end{minipage}\hfill
         \begin{minipage}{2.5cm}
             \begin{center}
-                \includegraphics[width=1.8cm]{images/logo-ito}
+                \includegraphics[width=3.5cm]{images/logo-ito}
             \end{center}
         \end{minipage}
 
